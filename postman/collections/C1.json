@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "c23bf03a-671a-473a-9f27-d3ce5284b13a",
+		"_postman_id": "1e4f343f-b1f5-4426-8c60-3107eb58d5e2",
 		"name": "C1-4",
 		"description": "Buy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "536514-c23bf03a-671a-473a-9f27-d3ce5284b13a"
+		"_uid": "541168-1e4f343f-b1f5-4426-8c60-3107eb58d5e2"
 	},
 	"item": [
 		{
 			"name": "Read a spacecraft",
-			"id": "cdb8a4d6-f6b0-4b69-b090-109331f08be1",
+			"id": "3e6ceaf4-8b16-4f81-a923-7826797cec1c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -44,7 +44,7 @@
 			},
 			"response": [
 				{
-					"id": "e266334d-9773-4cad-85b2-e96c6653b918",
+					"id": "f5f834b8-016e-41ad-93d1-f125c11b7b50",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -76,6 +76,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -86,7 +87,7 @@
 					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"nulla\",\n  \"type\": \"satellite\",\n  \"description\": \"cupidatat nulla fugiat\"\n}"
 				},
 				{
-					"id": "1d081fc7-a2ac-45c4-b7fc-14d7ed74d88f",
+					"id": "d8185977-a397-4b84-a842-df937dabcfd1",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -118,6 +119,7 @@
 					"status": "Not Found",
 					"code": 404,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -128,7 +130,7 @@
 					"body": "{\n  \"message\": \"amet qui Lorem\"\n}"
 				},
 				{
-					"id": "74d717ae-ef63-4e92-a5b1-c527f2a70ea1",
+					"id": "d39bba46-1ad2-42a9-8e98-49a8e249abcf",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -160,6 +162,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
