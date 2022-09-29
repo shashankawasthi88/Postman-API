@@ -22,14 +22,14 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId/endpoint-1",
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId/endpoint-1-2",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
 						"spacecrafts",
 						":spacecraftId",
-						"endpoint-1"
+						"endpoint-1-2"
 					],
 					"variable": [
 						{
