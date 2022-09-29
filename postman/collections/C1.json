@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "c23bf03a-671a-473a-9f27-d3ce5284b13a",
-		"name": "C1-3",
+		"name": "C1-4",
 		"description": "Buy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "536514-c23bf03a-671a-473a-9f27-d3ce5284b13a"
@@ -22,7 +22,7 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId/endpoint changes/more changes/ some more-1-2",
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId/endpoint changes/more changes/ some more-1-2-3",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -31,7 +31,7 @@
 						":spacecraftId",
 						"endpoint changes",
 						"more changes",
-						" some more-1-2"
+						" some more-1-2-3"
 					],
 					"variable": [
 						{
