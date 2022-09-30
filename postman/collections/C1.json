@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "Read a spacecraft",
+			"name": "Read a spacecraft-1",
 			"id": "85e02ad3-77a0-49fa-9cf5-a718f8d322ff",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
